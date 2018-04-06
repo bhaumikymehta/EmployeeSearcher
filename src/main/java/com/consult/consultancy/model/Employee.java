@@ -16,9 +16,10 @@ public class Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
 //            generator = "system-uuid")
 //    @GenericGenerator(name="system-uuid" , strategy = "uuid")
-    private Long id;
+
 
     List<String> columns;
 
